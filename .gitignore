@@ -1,0 +1,11 @@
+.idea/
+.vs/
+src/bin/
+src/obj/
+src/Properties/
+src/data/Volte.db
+*.user
+*.vspscc
+*.vssscc
+*.log
+src/data/config.json
