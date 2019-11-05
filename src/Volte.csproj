@@ -1,31 +1,33 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.0</TargetFramework>
-        <LangVersion>preview</LangVersion>
-        <StartupObject>Volte.Program</StartupObject>
-        <RuntimeIdentifiers>linux-x64</RuntimeIdentifiers>
-        <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
-        <Authors>GreemDev</Authors>
-        <Company>GreemDev</Company>
-        <PackageProjectUrl>https://greemdev.net/Volte</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/Ultz/Volte</RepositoryUrl>
-        <Copyright>MIT</Copyright>
-        <Version>3.0.1.0</Version>
-        <Platforms>AnyCPU;x64</Platforms>
-        <ApplicationIcon>Volte.ico</ApplicationIcon>
-        <PlatformTarget>x64</PlatformTarget>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="Colorful.Console" Version="1.2.9" />
-        <PackageReference Include="Discord.Net.WebSocket" Version="2.2.0-dev-20191003.3" />
-        <PackageReference Include="Gommon" Version="1.2.0" />
-        <PackageReference Include="Humanizer.Core" Version="2.6.2" />
-        <PackageReference Include="LiteDB" Version="4.1.4" />
-        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="3.3.0-beta2-final" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0-preview8.19405.4" />        
-        <PackageReference Include="Qmmands" Version="3.0.0-nightly-00205" />
-        <PackageReference Include="RestSharp" Version="106.6.10" />
-        <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0006" />
-    </ItemGroup>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <StartupObject>Volte.Program</StartupObject>
+    <RuntimeIdentifiers>linux-x64</RuntimeIdentifiers>
+    <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+    <Authors>GreemDev</Authors>
+    <Company>GreemDev</Company>
+    <PackageProjectUrl>https://greemdev.net/Volte</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ultz/Volte</RepositoryUrl>
+    <Copyright>MIT</Copyright>
+    <Version>3.0.1.0</Version>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>Volte.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.9"/>
+    <PackageReference Include="Discord.Net.WebSocket" Version="2.2.0-dev-20191003.3"/>
+    <PackageReference Include="Gommon" Version="1.2.0"/>
+    <PackageReference Include="Humanizer.Core" Version="2.6.2"/>
+    <PackageReference Include="LiteDB" Version="4.1.4"/>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="3.3.0-beta2-final"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0-preview8.19405.4"/>
+    <PackageReference Include="Qmmands" Version="3.0.0-nightly-00205"/>
+    <PackageReference Include="RestSharp" Version="106.6.10"/>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0006"/>
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.41.1.1754"/>
+    <PackageReference Include="Google.Apis" Version="*"/>
+  </ItemGroup>
 </Project>
